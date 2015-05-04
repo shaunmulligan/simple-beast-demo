@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Demo for Docker meetup 2014-05-05",
   "scripts": {
-    "prestart": "./prestart.sh"
+    "prestart": "./prestart.sh",
+    "start": "./start.sh"
   },
   "author": "Petros Angelatos <petrosagg@resin.io>",
   "license": "MIT"
