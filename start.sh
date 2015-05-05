@@ -1,5 +1,5 @@
 #!/bin/bash
 
-fbi -d /dev/fb1 -T 1 -noverbose -a resin.jpg
+cat resin.raw > /dev/fb1
 
 sleep 9999999
