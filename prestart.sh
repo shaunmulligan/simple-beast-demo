@@ -2,7 +2,7 @@
 
 if [ ! -c /dev/fb1 ]; then
   modprobe spi-bcm2708
-  modprobe fbtft_device name=pitft verbose=0 rotate=0
+  modprobe fbtft_device name=pitft verbose=0 rotate=270
 
   sleep 1
 
